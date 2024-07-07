@@ -1,184 +1,35 @@
-{ "head": {
-    "vars": [ "g" ]
+{
+  "head": { "vars": [ "book" , "title" ]
   } ,
-  "results": {
+  "results": { 
     "bindings": [
-      { 
-        "g": { "type": "uri" , "value": "urn:name:kennisgebiedenregister" }
+      {
+        "book": { "type": "uri" , "value": "http://example.org/book/book6" } ,
+        "title": { "type": "literal" , "value": "Harry Potter and the Half-Blood Prince" }
       } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:name:types" }
+      {
+        "book": { "type": "uri" , "value": "http://example.org/book/book7" } ,
+        "title": { "type": "literal" , "value": "Harry Potter and the Deathly Hallows" }
       } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:bag_1.0.0" }
+      {
+        "book": { "type": "uri" , "value": "http://example.org/book/book5" } ,
+        "title": { "type": "literal" , "value": "Harry Potter and the Order of the Phoenix" }
       } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:vda-sm_1.1.0" }
+      {
+        "book": { "type": "uri" , "value": "http://example.org/book/book4" } ,
+        "title": { "type": "literal" , "value": "Harry Potter and the Goblet of Fire" }
       } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:vda-igm_1.0.0" }
+      {
+        "book": { "type": "uri" , "value": "http://example.org/book/book2" } ,
+        "title": { "type": "literal" , "value": "Harry Potter and the Chamber of Secrets" }
       } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:oep-vrm_1.0.0" }
+      {
+        "book": { "type": "uri" , "value": "http://example.org/book/book3" } ,
+        "title": { "type": "literal" , "value": "Harry Potter and the Prisoner Of Azkaban" }
       } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:name:toetsingskader" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:name:toetsingen" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:vda-kh_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:vda-kh_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:vda-sm_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:vda-sm_1.1.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:inu-dac7_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:inu-dac_logistiek_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:vda-cad_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:per-org_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:per-np_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:vda-lgm_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:bom-alg_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:bom-vb_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:fmr_2.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:bri_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:oep-vrm_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:fmr_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:vda-cad_1.1.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:oep-ink_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:oep-ink_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:ib-stufi_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:ib-stufi_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:doc-mgs_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:per-alg_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:per-alg_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:ozk-woz_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:ib_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:ib_1.0.1" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:sm:fir_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:bag_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:inu-dac7_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:vda-cad_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:vda-cad_1.1.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:vda-cad_1.0.1" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:inu-dac_logistiek_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:vda-kh_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:vda-lgm_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:vda-sm_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:bom-alg_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:per-alg_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:bom-vb_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:lgd:ib-stufi_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:name:toetsingslogboek" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:vda-sm_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:vda-cad_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:bom-alg_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:fmr_2.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:per-np_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:per-org_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:toets:sm:bom-vb_1.0.0" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:uuid:882daea7-26b2-594a-9ba0-b742f8f54724" }
-      } ,
-      { 
-        "g": { "type": "uri" , "value": "urn:uuid:2566e1cb-f678-5283-9362-6c3f22f3856d" }
+      {
+        "book": { "type": "uri" , "value": "http://example.org/book/book1" } ,
+        "title": { "type": "literal" , "value": "Harry Potter and the Philosopher's Stone" }
       }
     ]
   }
