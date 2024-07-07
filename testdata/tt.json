@@ -1,8 +1,4 @@
-{
-  "head": { "vars": [ "book" , "title" ]
-  } ,
-  "results": { 
-    "bindings": [
+ [
       {
         "book": { "type": "uri" , "value": "http://example.org/book/book6" } ,
         "title": { "type": "literal" , "value": "Harry Potter and the Half-Blood Prince" }
@@ -32,5 +28,3 @@
         "title": { "type": "literal" , "value": "Harry Potter and the Philosopher's Stone" }
       }
     ]
-  }
-}
